@@ -1,0 +1,14 @@
+email: narget@umich.edu
+fullname: 'nate dogg'
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$owQoOKHaAYAyfRks6lmkCOXsN0qW9XOdBSyxONNj55KmxVKDcrXiG
+authenticated: true
+authorized: true
+language: en
