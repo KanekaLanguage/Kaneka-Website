@@ -25,6 +25,20 @@
         background-size: cover;
         background-position: center;
 
+        // $startColor: rgba(255,255,0,.5);
+        // $endColor: rgba(0,255,0,.5);
+        // background-color: #444; // fallback
+        // // background: url('https://media.npr.org/assets/img/2017/11/16/trh_simple_solution_artwork_wide-64cd61f094c4c439e8da518fdb5976ff3ab57365-s800-c85.jpg') center center no-repeat; // fallback
+
+        // background: url('https://media.npr.org/assets/img/2017/11/16/trh_simple_solution_artwork_wide-64cd61f094c4c439e8da518fdb5976ff3ab57365-s800-c85.jpg') center center no-repeat, -moz-linear-gradient(top, $startColor, $endColor); // FF 3.6+
+        // background: url('https://media.npr.org/assets/img/2017/11/16/trh_simple_solution_artwork_wide-64cd61f094c4c439e8da518fdb5976ff3ab57365-s800-c85.jpg') center center no-repeat, -webkit-gradient(linear, 0 0, 0 100%, from($startColor), to($endColor)); // Safari 4+, Chrome 2+
+        // background: url('https://media.npr.org/assets/img/2017/11/16/trh_simple_solution_artwork_wide-64cd61f094c4c439e8da518fdb5976ff3ab57365-s800-c85.jpg') center center no-repeat, -webkit-linear-gradient(top, $startColor, $endColor); // Safari 5.1+, Chrome 10+
+        // background: url('https://media.npr.org/assets/img/2017/11/16/trh_simple_solution_artwork_wide-64cd61f094c4c439e8da518fdb5976ff3ab57365-s800-c85.jpg') center center no-repeat, -o-linear-gradient(top, $startColor, $endColor); // Opera 11.10
+        // background: url('https://media.npr.org/assets/img/2017/11/16/trh_simple_solution_artwork_wide-64cd61f094c4c439e8da518fdb5976ff3ab57365-s800-c85.jpg') center center no-repeat, linear-gradient(to bottom, $startColor, $endColor); // Standard, IE10
+
+        // background-image: url("https://media.npr.org/assets/img/2017/11/16/trh_simple_solution_artwork_wide-64cd61f094c4c439e8da518fdb5976ff3ab57365-s800-c85.jpg"), linear-gradient(#eb01a5, #d13531);
+        // background-image: url("https://media.npr.org/assets/img/2017/11/16/trh_simple_solution_artwork_wide-64cd61f094c4c439e8da518fdb5976ff3ab57365-s800-c85.jpg");
+
         text-align: center;
         color: $header-text;
         h1 {
