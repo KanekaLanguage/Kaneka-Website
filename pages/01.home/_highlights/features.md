@@ -16,8 +16,4 @@ features:
       text: "From the ground up, the system is meant to be expressive... one day capable of expressing anything at all."
       icon: puzzle-piece
 ---
-
-## Kaneka is a modular language for mechanical expression.
-### Very simple instances of *mechanical semantics* combine to create increasingly abstract functionality.
-
-Somewhere at the intersection of "Lego", japanese wood "Joinery" and mathematical "Combinatorics", lies **kaneka**. Use the [Library](library) to leverage others ideas and build [cool stuff](gallery). 
+## Features
