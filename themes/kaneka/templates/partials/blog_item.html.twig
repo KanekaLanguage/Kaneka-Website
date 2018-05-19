@@ -41,8 +41,7 @@
 
     </div>
     <div>
-    <p> HELOOOO??</p>
-            {% if page.header.images|length > 0 %}
+{% if page.header.images | length > 0 %}
         {% for image in page.header.images %}
         <article class="thumb">
             <a href="{{ page.media[image.name].url }}" class="image">

@@ -623,8 +623,8 @@ td {
             background: #ccc; }
 
 .blog-header {
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
+  padding: 2rem;
+  background-color: #eee; }
   .blog-header.blog-header-image {
     background-size: cover;
     background-position: center; }
