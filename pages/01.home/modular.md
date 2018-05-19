@@ -10,9 +10,8 @@ content:
         dir: asc
         custom:
             - _showcase
+            - _mission-statement
             - _highlights
             - _callout
             - _slider
 ---
-
-

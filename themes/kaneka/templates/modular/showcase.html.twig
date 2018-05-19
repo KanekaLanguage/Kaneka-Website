@@ -1,10 +1,12 @@
 {# {% set showcase_image = page.media.images|first.grayscale().contrast(20).brightness(-125).colorize(-135,122,222) %} #}
 {# {% set showcase_image = page.media.images|first.grayscale().contrast(20).brightness(-125).colorize(-135,122,222) %} #}
 {# {% set showcase_image = page.media['sunset.jpg'].brightness(-50) %} #}
-{# {% set showcase_image = page.media['stool.jpg'].brightness(-50) %} #}
-{% set showcase_image = page.media['spin.gif'].brightness(-50) %}
+{% set showcase_image = page.media['stool.jpg'].brightness(-50) %}
+{# {% set showcase_image = page.media['spin.gif'].brightness(-50) %} #}
 {% if showcase_image %}
-	<div class="modular-row showcase{% if page == page.parent.collection.first %} flush-top{% endif %}" style="background-image: url({{ showcase_image.url }});">
+	<div class="modular-row showcase{% if page == page.parent.collection.first %} flush-top{% endif %}" style="background-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,.5)), url({{ showcase_image.url }});">
+    {# <div class="modular-row showcase flush-top" style="background-image: linear-gradient(to left, rgba(255,255,0,.5),rgba(2,2,2,.1)), url({{ showcase_image.url }});"> #}
+	{# <div class="modular-row showcase{% if page == page.parent.collection.first %} flush-top{% endif %}" style="background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);"> #}
 {% else %}
 <div class="modular-row showcase">
 {% endif %}
